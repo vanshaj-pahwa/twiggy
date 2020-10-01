@@ -1,0 +1,77 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: monospace;
+}
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(mottu.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 25px;
+}
+ul li{
+  display: inline-block;
+  font-size: 20px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+}
+ul li a:hover{
+  background-color: seagreen;
+  color: #fff;
+}
+ul li a.active{
+  background-color: seagreen;
+  color: #fff;
+}
+.main{
+  margin-right: 30px;
+}
+.title{
+  color: #fff;
+  position: absolute;
+  top: 43%;
+  left: 10%;
+  font-size: 30px;
+}
+.button{
+  position: absolute;
+  top: 56%;
+  left: 14%;
+}
+.btn1{
+  border-radius: 25px;
+  margin: 15px;
+  padding: 10px 50px;
+  color: #fff;
+  text-decoration: none;
+  background: green;
+  font-family: verdana;
+}
+.btn1:hover{
+  background: seagreen;
+}
+
+.btn2{
+  border: 2px solid seagreen;
+  border-radius: 25px;
+  margin: 15px;
+  padding: 10px 50px;
+  color: #fff;
+  text-decoration: none;
+  font-family: verdana;
+
+}
+
+.btn2:hover{
+  border: none;
+  background: seagreen;
+  color: #fff;
+}
